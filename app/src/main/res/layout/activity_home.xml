@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".UI.HomeActivity">
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="310dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/reguler"
+        android:text="@string/textInfo"
+        android:textSize="32sp"/>
+
+    <ImageView
+        android:id="@+id/imgStarted"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:src="@drawable/btn_primary"
+        android:layout_marginTop="440dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgSignIn"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:src="@drawable/btn_light"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
